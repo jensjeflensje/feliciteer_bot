@@ -22,6 +22,3 @@ def draw_image(img1, img2):
     new_image.paste(party_hat, party_hat1_offset, party_hat)
     new_image.paste(party_hat, party_hat2_offset, party_hat)
     new_image.save('banner.png', "PNG")
-
-
-draw_image("pf.png", "https://cdn.discordapp.com/avatars/179971764921696256/d364141389c6ec24ce97f3af40822f3b.png?size=512")
